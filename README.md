@@ -21,5 +21,6 @@ $ npm run generate
 
 
 # Image 
-![first-nuxt-app](https://user-images.githubusercontent.com/75854041/120909125-73709580-c67a-11eb-892c-4a7c225f5cd2.png)
+![first-nuxt-app (1)](https://user-images.githubusercontent.com/75854041/120913575-a62d8480-c6a0-11eb-8deb-ceab5b332f54.png)
+
 
