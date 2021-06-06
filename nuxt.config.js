@@ -18,7 +18,8 @@ export default {
     "@/assets/css/header.css",
     "@/assets/css/restart.css",
     "@/assets/css/blog.css",
-    "@/assets/css/pcstyle.css"
+    "@/assets/css/pcstyle.css",
+    "@/assets/css/postpage.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -2,7 +2,13 @@
   <div class="index">
     <div v-for="post in posts" :key="post.id" class="post">
       <div class="head">
-        <h1>{{ post.title }}</h1>
+        <h1>
+          <Nuxt-link :to="`/blog/${post.id}`">
+            <span @click="postpage(post)">
+              {{ post.title }}
+            </span>
+          </Nuxt-link>
+        </h1>
         <img
           src="@/assets/image/favorite-icon.png"
           alt=""
@@ -29,6 +35,9 @@ export default {
       this.$store.commit("ListPost", post);
       document.querySelector(`#id${post.id}`).style.display = "none";
       document.querySelector(`#ok${post.id}`).style.display = "block";
+    },
+    postpage(post) {
+      this.$store.commit("selectPost", post);
     }
   },
   fetch({ $axios, store }) {

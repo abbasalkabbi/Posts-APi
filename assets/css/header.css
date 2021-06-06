@@ -1,8 +1,5 @@
 /*style for header*/
 
-* {
-  overflow-x: hidden;
-}
 header {
   background: linear-gradient(to right, rgb(0, 225, 255), rgb(140, 8, 145));
   height: 100px;
@@ -22,7 +19,7 @@ header ul li {
   font-size: 22px;
   float: left;
 }
-a {
+header a {
   text-decoration: none;
   padding: 10px;
   margin-right: 10px;
@@ -30,7 +27,7 @@ a {
   color: #000;
   border: 1px solid #000;
 }
-.nuxt-link-active {
+header .nuxt-link-active {
   text-decoration: none;
   padding: 10px;
   margin-right: 10px;
@@ -39,7 +36,7 @@ a {
   border: 1px solid #000;
 }
 
-a.nuxt-link-exact-active {
+header a.nuxt-link-exact-active {
   text-decoration: none;
   color: #fff;
   border: 1px solid #fff;
