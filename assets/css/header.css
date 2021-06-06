@@ -1,0 +1,44 @@
+* {
+  overflow-x: hidden;
+}
+header {
+  background: linear-gradient(to right, rgb(0, 225, 255), rgb(140, 8, 145));
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header ul li {
+  font-size: 22px;
+  float: left;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000;
+  border: 1px solid #000;
+}
+.nuxt-link-active {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #000;
+  border: 1px solid #000;
+}
+
+a.nuxt-link-exact-active {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+}

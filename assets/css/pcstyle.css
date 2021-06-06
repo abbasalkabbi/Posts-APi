@@ -1,0 +1,10 @@
+@media screen and (min-width: 700px) {
+  .post {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 10px auto;
+    position: relative;
+    box-shadow: 8px 14px 20px #292727a3, -1px -1px 10px rgb(140, 8, 145);
+  }
+}

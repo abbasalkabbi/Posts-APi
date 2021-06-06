@@ -1,0 +1,50 @@
+* {
+  overflow-x: hidden;
+}
+
+.blog {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 44px;
+}
+
+.post {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  box-shadow: 8px 14px 20px #292727a3, -1px -1px 10px rgb(140, 8, 145);
+  border-radius: 20px;
+}
+.head {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(0, 225, 255), rgb(140, 8, 145));
+  box-shadow: 12px 6px 20px rgba(141, 8, 145, 0.315);
+}
+.head h1 {
+  font-size: 22px;
+}
+
+section {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post h4 {
+  width: 90%;
+  background: #dbdbdb;
+  padding: 30px;
+  border-radius: 20px;
+  bottom: 10px;
+  box-shadow: 12px 6px 20px rgb(41 39 39 / 64%);
+}
