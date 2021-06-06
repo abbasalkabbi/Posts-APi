@@ -1,7 +1,12 @@
+/*style for blog post all and div favorite post*/
+
 * {
   overflow-x: hidden;
 }
-
+/*img ok show when you click on img favorite*/
+.ok {
+  display: none;
+}
 .blog {
   width: 100%;
   height: 100%;
@@ -10,7 +15,7 @@ h1 {
   text-align: center;
   font-size: 44px;
 }
-
+/*style for div post in blog and favorite post pages*/
 .post {
   width: 300px;
   height: 400px;
@@ -20,19 +25,32 @@ h1 {
   box-shadow: 8px 14px 20px #292727a3, -1px -1px 10px rgb(140, 8, 145);
   border-radius: 20px;
 }
+/*style for head in post div*/
 .head {
   width: 100%;
   height: 20%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgb(0, 225, 255), rgb(140, 8, 145));
   box-shadow: 12px 6px 20px rgba(141, 8, 145, 0.315);
 }
+/*style for title in head*/
 .head h1 {
   font-size: 22px;
 }
-
+/*style img favorite icon and ok img on post head*/
+.head img {
+  float: left;
+  width: 44px;
+  position: absolute;
+  left: 1px;
+  bottom: 0px;
+  cursor: pointer;
+  transition: 1s all;
+}
+/*style content in post*/
 section {
   width: 100%;
   height: 70%;
@@ -40,6 +58,8 @@ section {
   align-items: center;
   justify-content: center;
 }
+/*style text in  content in post*/
+
 .post h4 {
   width: 90%;
   background: #dbdbdb;

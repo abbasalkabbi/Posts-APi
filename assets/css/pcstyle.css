@@ -1,4 +1,7 @@
+/*style on screen  pc and  iped */
+
 @media screen and (min-width: 700px) {
+  /*post style */
   .post {
     width: 600px;
     height: 400px;
